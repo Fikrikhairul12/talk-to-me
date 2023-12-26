@@ -112,7 +112,7 @@
         <div class="main-artikel">
             <div class="artikel">
                 <a href="https://www.tehsariwangi.com/artikel/mengetahui-lebih-jauh-tentang-pengertian-keluarga" target="_blank">
-                    <h4>Mengetahu Lebih Jauh Tentang Pengertian Keluarga</h4>
+                    <h4>Mengetahui Lebih Jauh Tentang Pengertian Keluarga</h4>
                 </a>
                 <p>Pengertian keluarga melibatkan sejumlah individu yang tergabung dalam satu rumah tangga...</p>
                 <hr>
