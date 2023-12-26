@@ -56,7 +56,7 @@
         <div class="container" style="background-color: blue;">
             <div class="contant">
                 <img src="<?= base_url() ?>image/termotivasi-rb.png" alt="">
-                <a href="">
+                <a href="<?= base_url('terpadu/motivasi')?>">
                     <h2>Cara Untuk Tetap Termotivasi</h2>
                 </a>
                 <p>4 Menit</p>
@@ -66,7 +66,7 @@
         <div class="container" style="background-color: green;">
             <div class="contant">
                 <img src="<?= base_url() ?>image/melatihsyukur-rb.png" alt="">
-                <a href="">
+                <a href="<?= base_url('terpadu/bersyukur')?>">
                     <h2>Melatih Bersyukur</h2>
                 </a>
                 <p>5 Menit</p>
@@ -76,7 +76,7 @@
         <div class="container" style="background-color: orange;">
             <div class="contant">
                 <img src="<?= base_url() ?>image/melepaskhawatiran-rb.png" alt="">
-                <a href="">
+                <a href="<?= base_url('terpadu/kekhawatiran')?>">
                     <h2>Melepas Kekhawatiran</h2>
                 </a>
                 <p>6 Menit</p>
@@ -86,7 +86,7 @@
         <div class="container" style="background-color: maroon;">
             <div class="contant">
                 <img src="<?= base_url() ?>image/talk(22)-rb.png" alt="">
-                <a href="">
+                <a href="<?= base_url('terpadu/percaya_diri')?>">
                     <h2>Membangun Rasa Percaya Diri</h2>
                 </a>
                 <p>7 Menit</p>
@@ -96,7 +96,7 @@
         <div class="container" style="background-color: pink;">
             <div class="contant">
                 <img src="<?= base_url() ?>image/bangunhub-rb.png" alt="">
-                <a href="">
+                <a href="<?= base_url('terpadu/hubungan')?>">
                     <h2>Membangun Hubungan</h2>
                 </a>
                 <p>5 Menit</p>

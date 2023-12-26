@@ -47,16 +47,6 @@
 <body>
     <div class="main-st">
         <h3>KONSULTASI</h3>
-        <!-- <?php foreach($psikolog as $p) {?>
-        <div class="list-profil">
-            <img src="<?= base_url('image/keandra.png')?>" alt="">
-            <img src="<?= base_url('image/'). $p->picture?>" alt="">
-            <a href="<?= base_url('order/psikolog1')?>"><h4><?= $p->nama?></h4></a>
-            <p>Psikologi</p>
-            <p><?= $p->desc?></p>
-            <hr>
-        </div>
-        <?php }?> -->
         <div class="list-profil">
             <img src="<?= base_url('image/Keandra_Arkantama.png')?>" alt="">
             <a href="<?= base_url('order/psikolog1')?>"><h4>Keandra Arkantama</h4></a>

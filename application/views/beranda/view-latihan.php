@@ -155,31 +155,31 @@
         <div class="art">
             <div class="left">
                 <div class="judul">
-                    <a href="#"><img src="<?= base_url() ?>image/talk(31).png" alt=""></a>
+                    <a href="https://www.kompasiana.com/alfifauziyah764/64e2392c18333e54dc6701a2/pengaruh-pola-tidur-terhadap-kinerja-kognitif-dan-kesehatan-mental#:~:text=Kualitas%20tidur%20yang%20buruk%20dalam%20jangka%20panjang%2C%20menjadi,berpengaruh%20terhadap%20kesehata%20mental%2C%20khususnya%20pada%20pengolahan%20emosional." target="_blank"><img src="<?= base_url() ?>image/talk(31).png" alt=""></a>
                     <p>Kualitas Tidur dan Kesehatan Mental</p>
                 </div>
             </div>
             <div class="mid-left">
                 <div class="judul">
-                    <a href="#"><img src="<?= base_url() ?>image/artikelkeuangan.png" alt=""></a>
+                    <a href="https://www.kompas.id/baca/dikbud/2021/10/17/penggunaan-teknologi-memengaruhi-kesehatan-mental" target="_blank"><img src="<?= base_url() ?>image/artikelkeuangan.png" alt=""></a>
                     <p>Teknologi dan Mental Health</p>
                 </div>
             </div>
             <div class="mid">
                 <div class="judul">
-                    <a href="#"><img src="<?= base_url() ?>image/talk(29).png" alt=""></a>
+                    <a href="https://www.kompasiana.com/ahmadalii/64863a9008a8b553ec64c162/pengaruh-olahraga-terhadap-kesehatan-mental" target="_blank"><img src="<?= base_url() ?>image/talk(29).png" alt=""></a>
                     <p>Koneksi Olahraga dan Mental Health</p>
                 </div>
             </div>
             <div class="mid-right">
                 <div class="judul">
-                    <a href="#"><img src="<?= base_url() ?>image/talk(30).png" alt=""></a>
+                    <a href="https://aido.id/health-articles/meditasi-mindfulness-manfaatnya-bagi-kesehatan-mental/detail" target="_blank"><img src="<?= base_url() ?>image/talk(30).png" alt=""></a>
                     <p>Mindfulness dan Meditasi</p>
                 </div>
             </div>
             <div class="right">
                 <div class="judul">
-                    <a href="#"><img src="<?= base_url() ?>image/talk(32)-rb.png" alt=""></a>
+                    <a href="https://www.sehatq.com/artikel/pentingnya-manajemen-stres-untuk-kesehatan-mental-anda" target="_blank"><img src="<?= base_url() ?>image/talk(32)-rb.png" alt=""></a>
                     <p>Manajemen Stres dalam Keseharian</p>
                 </div>
             </div>
