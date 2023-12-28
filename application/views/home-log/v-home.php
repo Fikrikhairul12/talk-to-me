@@ -37,10 +37,6 @@
         <div class="home-pos">
             <div class="home-title">
                 <h1>TALK TO ME</h1>
-                <!-- <p>Fostering Mental Resilience: Explore 'Talk to Me'
-                    —Your Safe Haven for Open Conversations, Guiding 
-                    You Towards Sustainable Mental Health and Emotional 
-                    Flourishing.</p> -->
                 <p>Membina ketahanan mental: Jelajahi 'Talk to Me' 
                     — tempat berlindung Anda yang aman untuk percakapan 
                     terbuka, membimbing Anda menuju kesehatan mental yang 

@@ -50,7 +50,7 @@
                 <li class="nav-item"><a href="<?=base_url(). 'home/index'?>">Home</a></li>
                 <li class="nav-item"><a href="<?=base_url(). 'home/about'?>">About Us</a></li>
                 <li class="nav-item"><a href="<?=base_url(). 'home/faq'?>">FAQ</a></li>
-                <li class="nav-item"><a href="#">How To Use</a></li>
+                <li class="nav-item"><a href="<?=base_url(). 'home/how_to_use'?>">How To Use</a></li>
                 <li class="nav-item"><a href="<?=base_url(). 'Auth/register'?>">Register</a></li>
                 <li class="nav-item"><a href="<?=base_url(). 'Auth/login'?>">Login</a></li>
                 <!-- <li class="nav-item"><a href="<?=base_url(). 'beranda/index'?>">Login</a></li> -->

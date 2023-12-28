@@ -8,7 +8,7 @@ class home extends CI_Controller
         $this->load->helper('url');
         // $this->load->model('');
     }
-
+    
     public function index(){
         $this->load->view('home-log/v-header-def');
         $this->load->view('home-log/v-home');
@@ -23,5 +23,6 @@ class home extends CI_Controller
     }
     public function how_to_use(){
         $this->load->view('home-log/v-header-def');
+        $this->load->view('home-log/v-guide');
     }
 }
