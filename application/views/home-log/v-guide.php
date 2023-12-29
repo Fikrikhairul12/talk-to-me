@@ -13,7 +13,7 @@
             margin: 80px 90px 40px;
         }
         .guide{
-            width: 80%;
+            width: 90%;
             height: auto;
             margin: auto;
             padding: 20px;
@@ -24,11 +24,12 @@
             height: 100px;
             display: inline-flex;
             margin: 20px;
-            background-color: blueviolet;
+            border-radius: 10px;
+            background-color: aqua;
         }
         .guide-st img{
             float: left;
-            width: 90px;
+            width: 95px;
             padding: 10px;
             margin-top: 10px;
         }
@@ -47,8 +48,16 @@
                 <p>Guide Tes Psikologi</p>
             </div>
             <div class="guide-st">
-                <a href="https://youtu.be/wQUS5xi-clY" target="_blank"><img src="<?= base_url(). 'image/tes-psikologi.png'?>" ></a>
-                <p>Guide Tes Psikologi</p>
+                <a href="https://youtu.be/QuIXKiFzamU" target="_blank"><img src="<?= base_url(). 'image/mood.png'?>" ></a>
+                <p>Guide Mood</p>
+            </div>
+            <div class="guide-st">
+                <a href="https://youtu.be/gDL6Ns5q6Xc" target="_blank"><img src="<?= base_url(). 'image/order.png'?>" ></a>
+                <p>Guide Order</p>
+            </div>
+            <div class="guide-st">
+                <a href="https://youtu.be/Yu9HVyyLoSI" target="_blank"><img src="<?= base_url(). 'image/artikel-ahli.png'?>" ></a>
+                <p>Guide Artikel Ahli</p>
             </div>
         </div>
     </div>
