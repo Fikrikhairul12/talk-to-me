@@ -19,7 +19,7 @@
         .box-in {
             margin: auto;
             width: 80%;
-            /* background-color: #f3c0c5;            */
+            /* background-color: #f3c0c5;*/
         }
 
         .questleft{
