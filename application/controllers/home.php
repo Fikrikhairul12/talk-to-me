@@ -12,10 +12,12 @@ class home extends CI_Controller
     public function index(){
         $this->load->view('home-log/v-header-def');
         $this->load->view('home-log/v-home');
+        // $this->load->view('beranda/v-footer');
     }
     public function about(){
         $this->load->view('home-log/v-header-def');
         $this->load->view('home-log/v-about');
+        // $this->load->view('beranda/v-footer');
     }
     public function faq(){
         $this->load->view('home-log/v-header-def');
