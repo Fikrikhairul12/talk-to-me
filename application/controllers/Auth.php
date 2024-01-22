@@ -63,26 +63,34 @@ class Auth extends CI_Controller {
     }
 
     public function do_login() {
-        $email = $this->input->post('email');
-        $password = $this->input->post('password');
+        $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
+        $this->form_validation->set_rules('password', 'Password', 'required');
 
-        $user = $this->User_model->get_user_by_email($email);
-
-        if ($user && password_verify($password, $user->password)) {
-            $user_data = array(
-                'id_user' => $user->id_user,
-                'email' => $user->email,
-                'nama' => $user->nama,
-                'no_telepon' => $user->no_telepon,
-                'picture' => $user->picture
-            );
-            $this->session->set_userdata('user_data', $user_data);
-
-            redirect('beranda');
-        } else {
-            $data['error_message'] = 'Email atau password salah';
+        if ($this->form_validation->run() == FALSE) {
             $this->load->view('home-log/v-header-def');
-            $this->load->view('home-log/login', $data);
+            $this->load->view('home-log/login');
+        }else{
+            $email = $this->input->post('email');
+            $password = $this->input->post('password');
+    
+            $user = $this->User_model->get_user_by_email($email);
+    
+            if ($user && password_verify($password, $user->password)) {
+                $user_data = array(
+                    'id_user' => $user->id_user,
+                    'email' => $user->email,
+                    'nama' => $user->nama,
+                    'no_telepon' => $user->no_telepon,
+                    'picture' => $user->picture
+                );
+                $this->session->set_userdata('user_data', $user_data);
+    
+                redirect('beranda');
+            } else {
+                $data['error_message'] = 'Email atau password salah';
+                $this->load->view('home-log/v-header-def');
+                $this->load->view('home-log/login', $data);
+            }
         }
     }
     public function do_valid() {

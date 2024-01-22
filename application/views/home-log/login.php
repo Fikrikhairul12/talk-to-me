@@ -67,7 +67,7 @@
         <form method="post" action="<?php echo base_url('auth/do_login'); ?>">
             <div class="input-group">
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" required>
+                <input type="email" name="email" id="email" required value="<?php echo set_value('email'); ?>">
             </div>
             <div class="input-group">
                 <label for="password">Password</label>
@@ -75,19 +75,6 @@
             </div>
             <button type="submit" class="btn">Login</button>
         </form>
-            <!-- <table>
-            <tr>
-                <td><label for="email">Email:</label><br>
-                <input type="email" name="email" size="30" required></td>
-            </tr>
-            <tr>
-                <td><label for="password">Password:</label><br>
-            <input type="password" name="password" size="30" required></td>
-            </tr>
-            <tr>
-                <td><button type="submit">Login</button></td>
-            </tr>
-        </table> -->
     </div>
 </body>
 
