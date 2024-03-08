@@ -9,14 +9,6 @@
             box-sizing: border-box;
         }
 
-        /* body,html{
-            width: 100%;
-            height: 100%;
-            font-family: 'Times New Roman', Times, serif;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        } */
         .main-st{
             width: 100%;
             height: 100%;
