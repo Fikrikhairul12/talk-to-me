@@ -12,7 +12,7 @@
         .main-st{
             width: 100%;
             height: 100%;
-            /* margin-top: 100px; */
+            margin-top: 100px;
             font-family: 'Times New Roman', Times, serif;
             display: flex;
             align-items: center;
